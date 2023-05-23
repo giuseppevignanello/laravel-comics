@@ -22,7 +22,7 @@
                 <nav class="navbar">
                     <ul class="d-flex">
                         <li>
-                            <a> Characters </a>
+                            <a href="{{route('characters')}}"> Characters </a>
                         </li>
                         <li>
                             <a> Characters </a>
