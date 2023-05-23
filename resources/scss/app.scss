@@ -57,3 +57,13 @@ li {
 .bannerIcon {
     height: 100px;
 }
+
+.top_footer {
+    height: 350px;
+    background-image:  url("../img/dc-logo-bg.png"), url("../img/footer-bg.jpg");
+    background-repeat: no-repeat, repeat;
+    background-position: right, left;
+}
+
+//USE SAAS syntax 
+
