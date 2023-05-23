@@ -22,6 +22,31 @@
     </div>
 </div>
 
-@endsection
+<div class="banner">
+    <div class="container ">
+        <div class="row row-cols-6 align-items-center justify-content-center py-4">
+            <div class="bannerIcon">
+                <img src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png') }}" alt="" class="h-100">
+                <span class="text-white ms-3">Prova</span>
+            </div>
+            <div class="bannerIcon">
+                <img src="{{ Vite::asset('resources/img/buy-comics-merchandise.png') }}" alt="" class="h-100">
+                <span class="text-white ms-3">Prova</span>
+            </div>
+            <div class="bannerIcon">
+                <img src="{{ Vite::asset('resources/img/buy-comics-shop-locator.png') }}" alt="" class="h-100">
+                <span class="text-white ms-3">Prova</span>
+            </div>
+            <div class="bannerIcon">
+                <img src="{{ Vite::asset('resources/img/buy-comics-subscriptions.png') }}" alt="" class="h-100">
+                <span class="text-white ms-3">Prova</span>
+            </div>
 
-</html>
+        </div>
+    </div>
+
+    @endsection
+
+
+
+    </html>
