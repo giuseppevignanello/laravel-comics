@@ -22,10 +22,10 @@
                 <nav class="navbar">
                     <ul class="d-flex">
                         <li>
-                            <a href="{{route('characters')}}"> Characters </a>
+                            <a href="{{route('home')}}"> Home</a>
                         </li>
                         <li>
-                            <a> Characters </a>
+                            <a href="{{route('characters')}}"> Characters </a>
                         </li>
                         <li>
                             <a> Characters </a>
