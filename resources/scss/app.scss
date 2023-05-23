@@ -65,5 +65,14 @@ li {
     background-position: right, left;
 }
 
+.bottom_footer {
+    background-color: $dark;
+    height: 100px;
+
+    .follow {
+        color: $primary;
+    }
+}
+
 //USE SAAS syntax 
 

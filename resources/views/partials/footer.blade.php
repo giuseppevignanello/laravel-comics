@@ -111,12 +111,26 @@ $footerMenuItems = [
                 <li>
                 </li>
                 @endforeach
-
-
-
             </ul>
-
-
         </div>
+    </div>
+</div>
+
+<div class="bottom_footer">
+    <div class="container">
+        <div class="d-flex align-items-center justify-content-between h-100">
+            <button type="button" class="btn btn-outline-primary rounded-0 text-white">SIGN-UP NOW</button>
+            <div class="socials d-flex align-items-center">
+                <span class="follow"><strong> FOLLOW US</strong> </span>
+                <div class="social_icons ms-3">
+                    <img src="{{ Vite::asset('resources/img/footer-facebook.png') }}">
+                    <img src="{{ Vite::asset('resources/img/footer-facebook.png') }}">
+                    <img src="{{ Vite::asset('resources/img/footer-facebook.png') }}">
+                    <img src="{{ Vite::asset('resources/img/footer-facebook.png') }}">
+                    <img src="{{ Vite::asset('resources/img/footer-facebook.png') }}">
+                </div>
+            </div>
+        </div>
+
     </div>
 </div>
